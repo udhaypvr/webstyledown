@@ -13,8 +13,8 @@
   }
   
   body {
-    background-color: #333;
-    color: #fff;
+    background-color: #333; /* Light gray background */
+    color: #333; /* Dark gray text */
     font-family: Arial, sans-serif;
     line-height: 1.6;
     margin: 0;
@@ -24,7 +24,7 @@
   /* Navigation Styles */
   
   .navbar {
-    background-color: #18016b;
+    background-color: #4CAF50; /* Green navigation bar */
     color: #fff;
     display: flex;
     justify-content: space-between;
@@ -146,7 +146,6 @@
     transition: 100ms;
   }
 
-
 /* body */
 
 .home-section{
@@ -174,13 +173,15 @@ h2{
     border-radius: 20px;
     width: 1000px;
     height: 520px; 
+    border: none; /* Add this line */
+  box-shadow: none; /* Add this line */
   }
 
-.card {
+  .card {
     position: relative;
     width: 450px;
     height: 300px;
-    background-color: #f2f2f2;
+    background-color: #fff; /* White background */
     border-radius: 10px;
     display: flex;
     align-items: center;
@@ -199,7 +200,7 @@ h2{
   
   .card:hover {
     transform: scale(1.05);
-    box-shadow: 0 8px 16px rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.25);
   }
   
   .card__content {
@@ -667,8 +668,10 @@ ul {
 
   footer{
 
-    background-color: #c567e4;
-    
+    background-color: #333; /* Dark gray background */
+  color: #fff; /* White text */
+  padding: 20px;
+  text-align: center;
   }
 
 
